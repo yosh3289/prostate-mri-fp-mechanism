@@ -1,0 +1,38 @@
+{
+  "seed": 456,
+  "n_cases": 300,
+  "n_bootstrap": 1000,
+  "target_sens": 0.94,
+  "full_cohort": {
+    "bare_tau": 0.01,
+    "bare_casesens": 1.0,
+    "bare_casespec": 0.0,
+    "p2a_tau": 0.01,
+    "p2a_casesens": 1.0,
+    "p2a_casespec": 0.0,
+    "delta_casespec": 0.0
+  },
+  "bootstrap": {
+    "bare_casespec": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n": 1000
+    },
+    "p2a_casespec": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n": 1000
+    },
+    "delta_casespec": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n": 1000
+    }
+  }
+}

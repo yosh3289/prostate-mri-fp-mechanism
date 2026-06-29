@@ -1,0 +1,512 @@
+{
+  "picai": {
+    "cohort": "picai",
+    "n_fp_total": 14274,
+    "n_finite_similarity": 4203,
+    "n_nan_similarity": 10071,
+    "tertile_boundaries_cosine": {
+      "p33": 0.15145892934354502,
+      "p67": 0.7635073567560415
+    },
+    "pooled": {
+      "n_suppressed_total": 4008,
+      "n_residual_total": 10266,
+      "suppression_rate_overall": 0.2807902480033628,
+      "tiers": {
+        "low": {
+          "n": 1401,
+          "n_suppressed": 427,
+          "n_residual": 974,
+          "suppression_rate": 0.3047822983583155,
+          "proportion_of_all_fps": 0.09815048339638503,
+          "share_of_suppressed": 0.10653692614770459,
+          "share_of_residual": 0.09487629066822521
+        },
+        "mid": {
+          "n": 1401,
+          "n_suppressed": 363,
+          "n_residual": 1038,
+          "suppression_rate": 0.25910064239828695,
+          "proportion_of_all_fps": 0.09815048339638503,
+          "share_of_suppressed": 0.09056886227544911,
+          "share_of_residual": 0.1011104617182934
+        },
+        "high": {
+          "n": 1401,
+          "n_suppressed": 388,
+          "n_residual": 1013,
+          "suppression_rate": 0.2769450392576731,
+          "proportion_of_all_fps": 0.09815048339638503,
+          "share_of_suppressed": 0.0968063872255489,
+          "share_of_residual": 0.09867523865186051
+        },
+        "nan": {
+          "n": 10071,
+          "n_suppressed": 2830,
+          "n_residual": 7241,
+          "suppression_rate": 0.2810048654552676,
+          "proportion_of_all_fps": 0.7055485498108449,
+          "share_of_suppressed": 0.7060878243512974,
+          "share_of_residual": 0.7053380089616209
+        }
+      }
+    },
+    "per_seed": {
+      "seed42": {
+        "n_fp_total": 3255,
+        "n_suppressed_total": 559,
+        "n_residual_total": 2696,
+        "suppression_rate_overall": 0.1717357910906298,
+        "tiers": {
+          "low": {
+            "n": 342,
+            "n_suppressed": 62,
+            "n_residual": 280,
+            "suppression_rate": 0.18128654970760233,
+            "share_of_suppressed": 0.11091234347048301,
+            "share_of_residual": 0.10385756676557864
+          },
+          "mid": {
+            "n": 326,
+            "n_suppressed": 49,
+            "n_residual": 277,
+            "suppression_rate": 0.15030674846625766,
+            "share_of_suppressed": 0.08765652951699464,
+            "share_of_residual": 0.10274480712166172
+          },
+          "high": {
+            "n": 305,
+            "n_suppressed": 54,
+            "n_residual": 251,
+            "suppression_rate": 0.17704918032786884,
+            "share_of_suppressed": 0.09660107334525939,
+            "share_of_residual": 0.09310089020771513
+          },
+          "nan": {
+            "n": 2282,
+            "n_suppressed": 394,
+            "n_residual": 1888,
+            "suppression_rate": 0.1726555652936021,
+            "share_of_suppressed": 0.7048300536672629,
+            "share_of_residual": 0.7002967359050445
+          }
+        }
+      },
+      "seed123": {
+        "n_fp_total": 2152,
+        "n_suppressed_total": 828,
+        "n_residual_total": 1324,
+        "suppression_rate_overall": 0.3847583643122677,
+        "tiers": {
+          "low": {
+            "n": 213,
+            "n_suppressed": 86,
+            "n_residual": 127,
+            "suppression_rate": 0.40375586854460094,
+            "share_of_suppressed": 0.10386473429951691,
+            "share_of_residual": 0.09592145015105741
+          },
+          "mid": {
+            "n": 210,
+            "n_suppressed": 78,
+            "n_residual": 132,
+            "suppression_rate": 0.37142857142857144,
+            "share_of_suppressed": 0.09420289855072464,
+            "share_of_residual": 0.09969788519637462
+          },
+          "high": {
+            "n": 205,
+            "n_suppressed": 67,
+            "n_residual": 138,
+            "suppression_rate": 0.32682926829268294,
+            "share_of_suppressed": 0.08091787439613526,
+            "share_of_residual": 0.1042296072507553
+          },
+          "nan": {
+            "n": 1524,
+            "n_suppressed": 597,
+            "n_residual": 927,
+            "suppression_rate": 0.39173228346456695,
+            "share_of_suppressed": 0.7210144927536232,
+            "share_of_residual": 0.7001510574018127
+          }
+        }
+      },
+      "seed456": {
+        "n_fp_total": 3467,
+        "n_suppressed_total": 591,
+        "n_residual_total": 2876,
+        "suppression_rate_overall": 0.17046437842515144,
+        "tiers": {
+          "low": {
+            "n": 316,
+            "n_suppressed": 56,
+            "n_residual": 260,
+            "suppression_rate": 0.17721518987341772,
+            "share_of_suppressed": 0.09475465313028765,
+            "share_of_residual": 0.09040333796940195
+          },
+          "mid": {
+            "n": 332,
+            "n_suppressed": 51,
+            "n_residual": 281,
+            "suppression_rate": 0.1536144578313253,
+            "share_of_suppressed": 0.08629441624365482,
+            "share_of_residual": 0.09770514603616133
+          },
+          "high": {
+            "n": 328,
+            "n_suppressed": 60,
+            "n_residual": 268,
+            "suppression_rate": 0.18292682926829268,
+            "share_of_suppressed": 0.10152284263959391,
+            "share_of_residual": 0.09318497913769123
+          },
+          "nan": {
+            "n": 2491,
+            "n_suppressed": 424,
+            "n_residual": 2067,
+            "suppression_rate": 0.1702127659574468,
+            "share_of_suppressed": 0.7174280879864636,
+            "share_of_residual": 0.7187065368567455
+          }
+        }
+      },
+      "seed789": {
+        "n_fp_total": 2575,
+        "n_suppressed_total": 1079,
+        "n_residual_total": 1496,
+        "suppression_rate_overall": 0.41902912621359223,
+        "tiers": {
+          "low": {
+            "n": 244,
+            "n_suppressed": 109,
+            "n_residual": 135,
+            "suppression_rate": 0.44672131147540983,
+            "share_of_suppressed": 0.1010194624652456,
+            "share_of_residual": 0.09024064171122995
+          },
+          "mid": {
+            "n": 246,
+            "n_suppressed": 101,
+            "n_residual": 145,
+            "suppression_rate": 0.4105691056910569,
+            "share_of_suppressed": 0.09360518999073215,
+            "share_of_residual": 0.09692513368983957
+          },
+          "high": {
+            "n": 289,
+            "n_suppressed": 120,
+            "n_residual": 169,
+            "suppression_rate": 0.41522491349480967,
+            "share_of_suppressed": 0.11121408711770157,
+            "share_of_residual": 0.11296791443850267
+          },
+          "nan": {
+            "n": 1796,
+            "n_suppressed": 749,
+            "n_residual": 1047,
+            "suppression_rate": 0.41703786191536746,
+            "share_of_suppressed": 0.6941612604263206,
+            "share_of_residual": 0.6998663101604278
+          }
+        }
+      },
+      "seed1024": {
+        "n_fp_total": 2825,
+        "n_suppressed_total": 951,
+        "n_residual_total": 1874,
+        "suppression_rate_overall": 0.33663716814159295,
+        "tiers": {
+          "low": {
+            "n": 286,
+            "n_suppressed": 114,
+            "n_residual": 172,
+            "suppression_rate": 0.3986013986013986,
+            "share_of_suppressed": 0.11987381703470032,
+            "share_of_residual": 0.09178228388473852
+          },
+          "mid": {
+            "n": 287,
+            "n_suppressed": 84,
+            "n_residual": 203,
+            "suppression_rate": 0.2926829268292683,
+            "share_of_suppressed": 0.08832807570977919,
+            "share_of_residual": 0.10832443970117396
+          },
+          "high": {
+            "n": 274,
+            "n_suppressed": 87,
+            "n_residual": 187,
+            "suppression_rate": 0.3175182481751825,
+            "share_of_suppressed": 0.0914826498422713,
+            "share_of_residual": 0.09978655282817503
+          },
+          "nan": {
+            "n": 1978,
+            "n_suppressed": 666,
+            "n_residual": 1312,
+            "suppression_rate": 0.3367037411526795,
+            "share_of_suppressed": 0.7003154574132492,
+            "share_of_residual": 0.7001067235859125
+          }
+        }
+      }
+    }
+  },
+  "prostate158": {
+    "cohort": "prostate158",
+    "n_fp_total": 6795,
+    "n_finite_similarity": 4482,
+    "n_nan_similarity": 2313,
+    "tertile_boundaries_cosine": {
+      "p33": 0.06914088534411933,
+      "p67": 0.8157300986964678
+    },
+    "pooled": {
+      "n_suppressed_total": 1944,
+      "n_residual_total": 4851,
+      "suppression_rate_overall": 0.2860927152317881,
+      "tiers": {
+        "low": {
+          "n": 1494,
+          "n_suppressed": 419,
+          "n_residual": 1075,
+          "suppression_rate": 0.28045515394912984,
+          "proportion_of_all_fps": 0.21986754966887417,
+          "share_of_suppressed": 0.21553497942386832,
+          "share_of_residual": 0.22160379303236447
+        },
+        "mid": {
+          "n": 1494,
+          "n_suppressed": 424,
+          "n_residual": 1070,
+          "suppression_rate": 0.2838018741633199,
+          "proportion_of_all_fps": 0.21986754966887417,
+          "share_of_suppressed": 0.21810699588477367,
+          "share_of_residual": 0.22057307771593485
+        },
+        "high": {
+          "n": 1494,
+          "n_suppressed": 428,
+          "n_residual": 1066,
+          "suppression_rate": 0.28647925033467203,
+          "proportion_of_all_fps": 0.21986754966887417,
+          "share_of_suppressed": 0.22016460905349794,
+          "share_of_residual": 0.21974850546279118
+        },
+        "nan": {
+          "n": 2313,
+          "n_suppressed": 673,
+          "n_residual": 1640,
+          "suppression_rate": 0.2909641158668396,
+          "proportion_of_all_fps": 0.3403973509933775,
+          "share_of_suppressed": 0.3461934156378601,
+          "share_of_residual": 0.3380746237889095
+        }
+      }
+    },
+    "per_seed": {
+      "seed42": {
+        "n_fp_total": 1736,
+        "n_suppressed_total": 332,
+        "n_residual_total": 1404,
+        "suppression_rate_overall": 0.1912442396313364,
+        "tiers": {
+          "low": {
+            "n": 400,
+            "n_suppressed": 78,
+            "n_residual": 322,
+            "suppression_rate": 0.195,
+            "share_of_suppressed": 0.23493975903614459,
+            "share_of_residual": 0.22934472934472935
+          },
+          "mid": {
+            "n": 380,
+            "n_suppressed": 71,
+            "n_residual": 309,
+            "suppression_rate": 0.1868421052631579,
+            "share_of_suppressed": 0.21385542168674698,
+            "share_of_residual": 0.22008547008547008
+          },
+          "high": {
+            "n": 329,
+            "n_suppressed": 69,
+            "n_residual": 260,
+            "suppression_rate": 0.20972644376899696,
+            "share_of_suppressed": 0.20783132530120482,
+            "share_of_residual": 0.18518518518518517
+          },
+          "nan": {
+            "n": 627,
+            "n_suppressed": 114,
+            "n_residual": 513,
+            "suppression_rate": 0.18181818181818182,
+            "share_of_suppressed": 0.3433734939759036,
+            "share_of_residual": 0.36538461538461536
+          }
+        }
+      },
+      "seed123": {
+        "n_fp_total": 872,
+        "n_suppressed_total": 319,
+        "n_residual_total": 553,
+        "suppression_rate_overall": 0.3658256880733945,
+        "tiers": {
+          "low": {
+            "n": 174,
+            "n_suppressed": 62,
+            "n_residual": 112,
+            "suppression_rate": 0.3563218390804598,
+            "share_of_suppressed": 0.19435736677115986,
+            "share_of_residual": 0.20253164556962025
+          },
+          "mid": {
+            "n": 193,
+            "n_suppressed": 73,
+            "n_residual": 120,
+            "suppression_rate": 0.37823834196891193,
+            "share_of_suppressed": 0.22884012539184953,
+            "share_of_residual": 0.21699819168173598
+          },
+          "high": {
+            "n": 225,
+            "n_suppressed": 76,
+            "n_residual": 149,
+            "suppression_rate": 0.3377777777777778,
+            "share_of_suppressed": 0.23824451410658307,
+            "share_of_residual": 0.2694394213381555
+          },
+          "nan": {
+            "n": 280,
+            "n_suppressed": 108,
+            "n_residual": 172,
+            "suppression_rate": 0.38571428571428573,
+            "share_of_suppressed": 0.3385579937304075,
+            "share_of_residual": 0.31103074141048825
+          }
+        }
+      },
+      "seed456": {
+        "n_fp_total": 1307,
+        "n_suppressed_total": 206,
+        "n_residual_total": 1101,
+        "suppression_rate_overall": 0.15761285386381024,
+        "tiers": {
+          "low": {
+            "n": 279,
+            "n_suppressed": 41,
+            "n_residual": 238,
+            "suppression_rate": 0.14695340501792115,
+            "share_of_suppressed": 0.19902912621359223,
+            "share_of_residual": 0.2161671207992734
+          },
+          "mid": {
+            "n": 306,
+            "n_suppressed": 44,
+            "n_residual": 262,
+            "suppression_rate": 0.1437908496732026,
+            "share_of_suppressed": 0.21359223300970873,
+            "share_of_residual": 0.23796548592188918
+          },
+          "high": {
+            "n": 271,
+            "n_suppressed": 42,
+            "n_residual": 229,
+            "suppression_rate": 0.15498154981549817,
+            "share_of_suppressed": 0.20388349514563106,
+            "share_of_residual": 0.20799273387829245
+          },
+          "nan": {
+            "n": 451,
+            "n_suppressed": 79,
+            "n_residual": 372,
+            "suppression_rate": 0.17516629711751663,
+            "share_of_suppressed": 0.38349514563106796,
+            "share_of_residual": 0.33787465940054495
+          }
+        }
+      },
+      "seed789": {
+        "n_fp_total": 1429,
+        "n_suppressed_total": 547,
+        "n_residual_total": 882,
+        "suppression_rate_overall": 0.3827851644506648,
+        "tiers": {
+          "low": {
+            "n": 287,
+            "n_suppressed": 101,
+            "n_residual": 186,
+            "suppression_rate": 0.3519163763066202,
+            "share_of_suppressed": 0.1846435100548446,
+            "share_of_residual": 0.2108843537414966
+          },
+          "mid": {
+            "n": 312,
+            "n_suppressed": 123,
+            "n_residual": 189,
+            "suppression_rate": 0.3942307692307692,
+            "share_of_suppressed": 0.22486288848263253,
+            "share_of_residual": 0.21428571428571427
+          },
+          "high": {
+            "n": 360,
+            "n_suppressed": 146,
+            "n_residual": 214,
+            "suppression_rate": 0.40555555555555556,
+            "share_of_suppressed": 0.26691042047531993,
+            "share_of_residual": 0.24263038548752835
+          },
+          "nan": {
+            "n": 470,
+            "n_suppressed": 177,
+            "n_residual": 293,
+            "suppression_rate": 0.37659574468085105,
+            "share_of_suppressed": 0.3235831809872029,
+            "share_of_residual": 0.3321995464852608
+          }
+        }
+      },
+      "seed1024": {
+        "n_fp_total": 1451,
+        "n_suppressed_total": 540,
+        "n_residual_total": 911,
+        "suppression_rate_overall": 0.37215713301171605,
+        "tiers": {
+          "low": {
+            "n": 354,
+            "n_suppressed": 137,
+            "n_residual": 217,
+            "suppression_rate": 0.3870056497175141,
+            "share_of_suppressed": 0.2537037037037037,
+            "share_of_residual": 0.23819978046103182
+          },
+          "mid": {
+            "n": 303,
+            "n_suppressed": 113,
+            "n_residual": 190,
+            "suppression_rate": 0.37293729372937295,
+            "share_of_suppressed": 0.20925925925925926,
+            "share_of_residual": 0.20856201975850713
+          },
+          "high": {
+            "n": 309,
+            "n_suppressed": 95,
+            "n_residual": 214,
+            "suppression_rate": 0.3074433656957929,
+            "share_of_suppressed": 0.17592592592592593,
+            "share_of_residual": 0.2349066959385291
+          },
+          "nan": {
+            "n": 485,
+            "n_suppressed": 195,
+            "n_residual": 290,
+            "suppression_rate": 0.4020618556701031,
+            "share_of_suppressed": 0.3611111111111111,
+            "share_of_residual": 0.31833150384193193
+          }
+        }
+      }
+    }
+  }
+}

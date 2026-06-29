@@ -1,0 +1,17 @@
+{
+  "seed": 1024,
+  "cohort": "prostate158",
+  "tau_match_bare": 0.99,
+  "tau_match_p2a": 0.9600000000000001,
+  "min_voxels": 10,
+  "n_negative_cases": 56,
+  "n_bootstrap": 10000,
+  "bootstrap_rng_seed": 20260421,
+  "bootstrap": {
+    "observed_mean_paired_diff": -0.08928571428571429,
+    "ci_2p5": -0.19642857142857142,
+    "ci_97p5": 0.0,
+    "p_two_sided": 0.1118,
+    "n_cases": 56
+  }
+}

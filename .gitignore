@@ -1,0 +1,11 @@
+# Internal QC artifact (references scan patterns); not for public release
+SANITIZATION_MANIFEST.md
+
+# Python / OS junk
+__pycache__/
+*.pyc
+*.pyo
+*.npz
+.DS_Store
+Thumbs.db
+~$*

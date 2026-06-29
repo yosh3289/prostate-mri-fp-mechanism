@@ -1,0 +1,12 @@
+{
+  "method": "temperature_scaling",
+  "cohort": "picai",
+  "seed": 42,
+  "temperature_T": 2.2199019919183179e+21,
+  "n_fit": 100,
+  "n_eval": 200,
+  "tau_matched_sens": 0.005,
+  "achieved_casesens": 1.0,
+  "achieved_casespec": 0.0,
+  "status": "ok"
+}

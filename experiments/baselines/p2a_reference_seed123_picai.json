@@ -1,0 +1,19 @@
+{
+  "method": "p2a_reference",
+  "cohort": "picai",
+  "seed": 123,
+  "full_cohort": {
+    "tau_matched_sens": 0.995,
+    "achieved_casesens": 0.9880952380952381,
+    "achieved_casespec": 0.12962962962962962,
+    "status": "ok",
+    "n": 300
+  },
+  "eval_subset_2_3": {
+    "tau_matched_sens": 0.995,
+    "achieved_casesens": 1.0,
+    "achieved_casespec": 0.11805555555555555,
+    "status": "saturated_min",
+    "n": 200
+  }
+}

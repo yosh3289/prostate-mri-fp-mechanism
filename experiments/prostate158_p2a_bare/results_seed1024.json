@@ -1,0 +1,19 @@
+{
+  "seed": 1024,
+  "dataset": "prostate158",
+  "n_cases": 158,
+  "dice": 0.16807477176189423,
+  "dice_std": 0.1894601732492447,
+  "sensitivity": 0.3967152535915375,
+  "sensitivity_std": 0.35683709383010864,
+  "specificity": 0.9785372614860535,
+  "specificity_std": 0.019924765452742577,
+  "num_samples": 158,
+  "num_positive": 102,
+  "num_negative": 56,
+  "case_sensitivity": 1.0,
+  "case_specificity": 0.0,
+  "auroc": 0.6904761904761905,
+  "ap": 0.25126458647385275,
+  "ranking_score": 0.4708703884750216
+}

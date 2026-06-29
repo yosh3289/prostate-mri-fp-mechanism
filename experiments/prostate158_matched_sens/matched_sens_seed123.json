@@ -1,0 +1,14 @@
+{
+  "seed": 123,
+  "target_casesens_bare": 0.9404761904761905,
+  "target_casesens_p2a": 0.9404761904761905,
+  "target_source": "looked_up",
+  "tau_match_bare": 0.87,
+  "tau_match_p2a": 0.86,
+  "achieved_casesens_bare": 0.9411764705882353,
+  "achieved_casesens_p2a": 0.9411764705882353,
+  "casespec_bare_matched": 0.03571428571428571,
+  "casespec_p2a_matched": 0.05357142857142857,
+  "delta_casespec": 0.017857142857142856,
+  "min_voxels": 10
+}

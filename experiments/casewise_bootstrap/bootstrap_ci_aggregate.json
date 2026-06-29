@@ -1,0 +1,52 @@
+{
+  "cohort": "prostate158",
+  "n_seeds": 5,
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    1024
+  ],
+  "n_bootstrap": 10000,
+  "per_seed_mean": [
+    0.03571428571428571,
+    0.017857142857142856,
+    0.0,
+    -0.017857142857142856,
+    -0.08928571428571429
+  ],
+  "per_seed_ci_2p5": [
+    0.0,
+    0.0,
+    0.0,
+    -0.07142857142857142,
+    -0.19642857142857142
+  ],
+  "per_seed_ci_97p5": [
+    0.08928571428571429,
+    0.05357142857142857,
+    0.0,
+    0.03571428571428571,
+    0.0
+  ],
+  "per_seed_p_two_sided": [
+    0.2676,
+    0.7208,
+    1.0,
+    0.7816,
+    0.1118
+  ],
+  "mean_of_per_seed_means": -0.010714285714285714,
+  "sd_of_per_seed_means": 0.04824734316466534,
+  "pooled_cases_bootstrap": {
+    "n_case_observations": 280,
+    "note": "Pooled across 5 seeds: each (seed, negative case) treated as one observation; paired diff P2a_spec - bare_spec. Bootstrap resamples the pooled observation index.",
+    "observed_mean_paired_diff": -0.010714285714285714,
+    "ci_2p5": -0.039285714285714285,
+    "ci_97p5": 0.017857142857142856,
+    "p_two_sided": 0.5174,
+    "n_cases": 280
+  },
+  "picai_note": "PI-CAI per-case detection sidecars are not present in the local experiments tree (eval JSONs contain only aggregate scenario scalars). PI-CAI bootstrap is therefore blocked on per-case sidecars; Prostate158 analysis is reported."
+}

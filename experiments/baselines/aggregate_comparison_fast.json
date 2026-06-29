@@ -1,0 +1,94 @@
+{
+  "prostate158": {
+    "threshold_sweep": {
+      "casespec_matched": {
+        "mean": 0.05714285714285714,
+        "sd": 0.031943828249996996,
+        "n": 5,
+        "per_seed": [
+          0.08928571428571429,
+          0.03571428571428571,
+          0.017857142857142856,
+          0.08928571428571429,
+          0.05357142857142857
+        ]
+      },
+      "casesens_matched": {
+        "mean": 0.9450980392156862,
+        "sd": 0.005369828995148668,
+        "n": 5,
+        "per_seed": [
+          0.9509803921568627,
+          0.9411764705882353,
+          0.9509803921568627,
+          0.9411764705882353,
+          0.9411764705882353
+        ]
+      }
+    },
+    "p2a_reference": {
+      "casespec_matched": {
+        "mean": 0.08928571428571427,
+        "sd": 0.04187871214128062,
+        "n": 5,
+        "per_seed": [
+          0.125,
+          0.05357142857142857,
+          0.10714285714285714,
+          0.125,
+          0.03571428571428571
+        ]
+      },
+      "casesens_matched": {
+        "mean": 0.9392156862745098,
+        "sd": 0.004384447014705454,
+        "n": 5,
+        "per_seed": [
+          0.9313725490196079,
+          0.9411764705882353,
+          0.9411764705882353,
+          0.9411764705882353,
+          0.9411764705882353
+        ]
+      }
+    },
+    "temperature_scaling_seed42_only": {
+      "method": "temperature_scaling",
+      "seed": 42,
+      "cohort": "prostate158",
+      "T": 14.157577597387757,
+      "n_fit": 52,
+      "n_eval": 106,
+      "tau_matched_sens_recal": 0.9890603015075377,
+      "achieved_casesens": 0.9558823529411765,
+      "achieved_casespec": 0.02631578947368421,
+      "status": "ok",
+      "note": "Case-level temperature scaling with T in [0.1, 100]. At matched sensitivity, a monotonic recalibration of the softmax surface is equivalent to a threshold sweep on the original softmax; see DECISION.md.  The reported CaseSpec equals that of threshold_sweep (evaluated on the same 2/3 eval subset)."
+    },
+    "platt_scaling_seed42_only": {
+      "method": "platt_scaling",
+      "seed": 42,
+      "cohort": "prostate158",
+      "a": 0.07005810737609589,
+      "b": 0.0005113762021064763,
+      "n_fit": 52,
+      "n_eval": 106,
+      "tau_matched_sens_recal": 0.9890603015075377,
+      "achieved_casesens": 0.9558823529411765,
+      "achieved_casespec": 0.02631578947368421,
+      "status": "ok",
+      "note": "Same equivalence argument as temperature scaling."
+    },
+    "delta_p2a_minus_sweep": {
+      "mean": 0.03214285714285714,
+      "sd": 0.03871336319406928,
+      "per_seed": [
+        0.03571428571428571,
+        0.017857142857142856,
+        0.08928571428571427,
+        0.03571428571428571,
+        -0.017857142857142856
+      ]
+    }
+  }
+}

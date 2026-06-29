@@ -1,0 +1,19 @@
+{
+  "method": "threshold_sweep",
+  "cohort": "picai",
+  "seed": 789,
+  "full_cohort": {
+    "tau_matched_sens": 0.995,
+    "achieved_casesens": 0.9523809523809523,
+    "achieved_casespec": 0.10185185185185185,
+    "status": "ok",
+    "n": 300
+  },
+  "eval_subset_2_3": {
+    "tau_matched_sens": 0.995,
+    "achieved_casesens": 0.9642857142857143,
+    "achieved_casespec": 0.10416666666666667,
+    "status": "ok",
+    "n": 200
+  }
+}

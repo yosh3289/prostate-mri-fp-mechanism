@@ -1,0 +1,67 @@
+{
+  "seed": {
+    "mean": 486.8,
+    "std_ddof1": 421.6203268344637
+  },
+  "n_cases": {
+    "mean": 158.0,
+    "std_ddof1": 0.0
+  },
+  "dice": {
+    "mean": 0.1319516345858574,
+    "std_ddof1": 0.03759266664568516
+  },
+  "dice_std": {
+    "mean": 0.17700295746326447,
+    "std_ddof1": 0.030184484884829534
+  },
+  "sensitivity": {
+    "mean": 0.31809415817260744,
+    "std_ddof1": 0.057166874026585456
+  },
+  "sensitivity_std": {
+    "mean": 0.3380021989345551,
+    "std_ddof1": 0.0234241175391502
+  },
+  "specificity": {
+    "mean": 0.9706007361412048,
+    "std_ddof1": 0.019311582653332042
+  },
+  "specificity_std": {
+    "mean": 0.019141015782952308,
+    "std_ddof1": 0.00659732133492766
+  },
+  "num_samples": {
+    "mean": 158.0,
+    "std_ddof1": 0.0
+  },
+  "num_positive": {
+    "mean": 102.0,
+    "std_ddof1": 0.0
+  },
+  "num_negative": {
+    "mean": 56.0,
+    "std_ddof1": 0.0
+  },
+  "case_sensitivity": {
+    "mean": 1.0,
+    "std_ddof1": 0.0
+  },
+  "case_specificity": {
+    "mean": 0.0,
+    "std_ddof1": 0.0
+  },
+  "auroc": {
+    "mean": 0.6579481792717086,
+    "std_ddof1": 0.024910333420288373
+  },
+  "ap": {
+    "mean": 0.17525608504371692,
+    "std_ddof1": 0.05724057365934964
+  },
+  "ranking_score": {
+    "mean": 0.4166021321577128,
+    "std_ddof1": 0.03246671695463181
+  },
+  "n_seeds": 5
+}

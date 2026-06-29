@@ -1,0 +1,52 @@
+{
+  "seed": 42,
+  "cohort": "prostate158",
+  "n_cases": 158,
+  "threshold_sweep": {
+    "method": "threshold_sweep",
+    "seed": 42,
+    "cohort": "prostate158",
+    "tau_matched_sens": 0.9940301507537688,
+    "achieved_casesens": 0.9509803921568627,
+    "achieved_casespec": 0.08928571428571429,
+    "status": "ok",
+    "n": 158
+  },
+  "p2a_reference": {
+    "method": "p2a_reference",
+    "seed": 42,
+    "cohort": "prostate158",
+    "tau_matched_sens": 0.9940301507537688,
+    "achieved_casesens": 0.9313725490196079,
+    "achieved_casespec": 0.125,
+    "status": "ok",
+    "n": 158
+  },
+  "temperature_scaling": {
+    "method": "temperature_scaling",
+    "seed": 42,
+    "cohort": "prostate158",
+    "T": 14.157577597387757,
+    "n_fit": 52,
+    "n_eval": 106,
+    "tau_matched_sens_recal": 0.9890603015075377,
+    "achieved_casesens": 0.9558823529411765,
+    "achieved_casespec": 0.02631578947368421,
+    "status": "ok",
+    "note": "Case-level temperature scaling with T in [0.1, 100]. At matched sensitivity, a monotonic recalibration of the softmax surface is equivalent to a threshold sweep on the original softmax; see DECISION.md.  The reported CaseSpec equals that of threshold_sweep (evaluated on the same 2/3 eval subset)."
+  },
+  "platt_scaling": {
+    "method": "platt_scaling",
+    "seed": 42,
+    "cohort": "prostate158",
+    "a": 0.07005810737609589,
+    "b": 0.0005113762021064763,
+    "n_fit": 52,
+    "n_eval": 106,
+    "tau_matched_sens_recal": 0.9890603015075377,
+    "achieved_casesens": 0.9558823529411765,
+    "achieved_casespec": 0.02631578947368421,
+    "status": "ok",
+    "note": "Same equivalence argument as temperature scaling."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "seed": 789,
+  "cohort": "prostate158",
+  "n_cases": 158,
+  "threshold_sweep": {
+    "method": "threshold_sweep",
+    "seed": 789,
+    "cohort": "prostate158",
+    "tau_matched_sens": 0.9840904522613064,
+    "achieved_casesens": 0.9411764705882353,
+    "achieved_casespec": 0.08928571428571429,
+    "status": "ok",
+    "n": 158
+  },
+  "p2a_reference": {
+    "method": "p2a_reference",
+    "seed": 789,
+    "cohort": "prostate158",
+    "tau_matched_sens": 0.9642110552763818,
+    "achieved_casesens": 0.9411764705882353,
+    "achieved_casespec": 0.125,
+    "status": "ok",
+    "n": 158
+  }
+}

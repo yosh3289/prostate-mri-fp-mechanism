@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the following work."
+title: "A multi-architecture study of specificity refinement and false-positive mechanism analysis in prostate MRI"
+type: software
+authors:
+  - family-names: "Shu"
+    given-names: "Yongbo"
+    affiliation: "Central South University"
+  - family-names: "Chen"
+    given-names: "Kewen"
+    affiliation: "Central South University"
+  - family-names: "Luo"
+    given-names: "Aijing"
+    affiliation: "Central South University"
+    email: "luoaj@csu.edu.cn"
+year: 2026
+url: "https://github.com/yosh3289/prostate-mri-fp-mechanism"
+repository-code: "https://github.com/yosh3289/prostate-mri-fp-mechanism"
+license: MIT
+# arXiv id to be added upon posting
+# identifiers:
+#   - type: other
+#     value: "arXiv:XXXX.XXXXX"
+#     description: "arXiv preprint (Paper 2)"

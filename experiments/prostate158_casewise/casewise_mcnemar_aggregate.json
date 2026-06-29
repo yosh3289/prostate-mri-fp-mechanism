@@ -1,0 +1,77 @@
+{
+  "n_seeds": 5,
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    1024
+  ],
+  "min_voxels": 10,
+  "n_cases_per_seed": [
+    158,
+    158,
+    158,
+    158,
+    158
+  ],
+  "per_seed_contingency": {
+    "42": {
+      "both_positive": 147,
+      "bare_pos_p2a_neg": 4,
+      "bare_neg_p2a_pos": 0,
+      "both_negative": 7
+    },
+    "123": {
+      "both_positive": 148,
+      "bare_pos_p2a_neg": 2,
+      "bare_neg_p2a_pos": 1,
+      "both_negative": 7
+    },
+    "456": {
+      "both_positive": 158,
+      "bare_pos_p2a_neg": 0,
+      "bare_neg_p2a_pos": 0,
+      "both_negative": 0
+    },
+    "789": {
+      "both_positive": 151,
+      "bare_pos_p2a_neg": 2,
+      "bare_neg_p2a_pos": 3,
+      "both_negative": 2
+    },
+    "1024": {
+      "both_positive": 136,
+      "bare_pos_p2a_neg": 3,
+      "bare_neg_p2a_pos": 10,
+      "both_negative": 9
+    }
+  },
+  "per_seed_mcnemar_p": {
+    "42": 0.125,
+    "123": 1.0,
+    "456": 1.0,
+    "789": 1.0,
+    "1024": 0.09228515625
+  },
+  "per_seed_mcnemar_method": {
+    "42": "exact_binomial_two_sided",
+    "123": "exact_binomial_two_sided",
+    "456": "degenerate_no_discordance",
+    "789": "exact_binomial_two_sided",
+    "1024": "exact_binomial_two_sided"
+  },
+  "pooled_discordant": {
+    "b_bare_pos_p2a_neg": 11,
+    "c_bare_neg_p2a_pos": 14
+  },
+  "pooled_mcnemar": {
+    "statistic": 0.16,
+    "p_value": 0.6891565167793516,
+    "method": "mcnemar_continuity_corrected",
+    "alternative": "two_sided",
+    "note": "Exact binomial two-sided on min(b,c)|b+c; standard small-count McNemar substitute."
+  },
+  "min_per_seed_p": 0.09228515625,
+  "max_per_seed_p": 1.0
+}

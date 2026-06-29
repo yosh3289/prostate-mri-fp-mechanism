@@ -1,0 +1,28 @@
+{
+  "seed": 456,
+  "tau_match_bare": 0.01,
+  "tau_match_p2a": 0.01,
+  "min_voxels": 10,
+  "n_cases": 158,
+  "contingency": {
+    "both_positive": 158,
+    "bare_pos_p2a_neg": 0,
+    "bare_neg_p2a_pos": 0,
+    "both_negative": 0
+  },
+  "bare_only_positive": {
+    "gt_positive": 0,
+    "gt_negative": 0
+  },
+  "p2a_only_positive": {
+    "gt_positive": 0,
+    "gt_negative": 0
+  },
+  "mcnemar": {
+    "statistic": 0.0,
+    "p_value": 1.0,
+    "method": "degenerate_no_discordance",
+    "alternative": "two_sided",
+    "note": "Continuity-corrected McNemar (chi2, df=1) for b+c >= 25; exact binomial otherwise"
+  }
+}

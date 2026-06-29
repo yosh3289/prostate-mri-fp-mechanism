@@ -1,0 +1,17 @@
+# Python dependencies for the analysis and figure-generation scripts in this repo.
+# Versions match the manuscript (Python 3.11; PyTorch 2.11, MONAI 1.5, SciPy 1.11).
+#
+# numpy / scipy / matplotlib : all analysis + figure scripts.
+# python-pptx                : graphical_abstract/ generator (scripts/make_data_driven_GA_pptx.py).
+# torch                      : evaluation scripts that re-run the frozen detection backbone
+#                              (experiments/*/eval_*.py, compute_*.py). NOT required to regenerate
+#                              the figures from the provided result JSONs.
+#
+# The frozen detection backbone code (src.models.*, src.data.*) and MONAI are external
+# (see the detection-backbone preprint, arXiv:2604.10702) and are not vendored here.
+
+numpy>=1.24
+scipy>=1.11
+matplotlib>=3.7
+python-pptx>=0.6.21
+torch>=2.0

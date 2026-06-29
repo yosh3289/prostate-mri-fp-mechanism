@@ -1,0 +1,13 @@
+{
+  "method": "platt_scaling",
+  "cohort": "picai",
+  "seed": 789,
+  "platt_a": 0.09669272144054801,
+  "platt_b": -2.0799331525533136,
+  "n_fit": 100,
+  "n_eval": 200,
+  "tau_matched_sens": 0.17500000000000002,
+  "achieved_casesens": 0.9464285714285714,
+  "achieved_casespec": 0.09722222222222222,
+  "status": "ok"
+}
