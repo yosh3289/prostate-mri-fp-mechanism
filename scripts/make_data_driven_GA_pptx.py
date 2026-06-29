@@ -222,7 +222,7 @@ add_text(0.4, 5.70, 12.5, 1.0, caption, font_size=9, color=DARK_TEXT, align=PP_A
 # ---------- Footer ----------
 add_rect(0, 7.05, 13.333, 0.45, fill=TEAL_DARK)
 add_text(0.4, 7.12, 12.5, 0.3,
-         "Shu Y, Chen K, Luo A — Central South University — European Radiology submission, 2026",
+         "Shu Y et al. — Central South University — European Radiology submission, 2026",
          font_size=10, italic=True, color=WHITE)
 
 prs.save(OUT)
