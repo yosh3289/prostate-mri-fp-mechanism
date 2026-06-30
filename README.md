@@ -106,8 +106,8 @@ python figures/figure6_baselines_stratification.py
 
 ## Citation
 
-If you use this repository, please cite Paper 2 (see `CITATION.cff`); the arXiv
-id will be added upon posting. Repository:
+If you use this repository, please cite Paper 2 (arXiv:2606.29977; see
+`CITATION.cff`). Repository:
 https://github.com/yosh3289/prostate-mri-fp-mechanism
 
 The frozen detection backbone is described in our earlier preprint:

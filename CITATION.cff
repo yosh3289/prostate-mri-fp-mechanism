@@ -33,8 +33,10 @@ year: 2026
 url: "https://github.com/yosh3289/prostate-mri-fp-mechanism"
 repository-code: "https://github.com/yosh3289/prostate-mri-fp-mechanism"
 license: MIT
-# arXiv id to be added upon posting
-# identifiers:
-#   - type: other
-#     value: "arXiv:XXXX.XXXXX"
-#     description: "arXiv preprint (Paper 2)"
+identifiers:
+  - type: other
+    value: "arXiv:2606.29977"
+    description: "arXiv preprint (Paper 2)"
+  - type: doi
+    value: "10.48550/arXiv.2606.29977"
+    description: "arXiv DOI (Paper 2 preprint)"
